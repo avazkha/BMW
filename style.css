@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  
+  .section-one {
+    background: #f3d7b7;
+    padding: 100px 50px;
+    margin-top: 50px;
+    height: 800px;
+    display: flex;
+    align-items: center;
+  }
+  .coffee {
+    width: 710px;
+    height: 694px;
+    transition: 0.5s;
+    transform: translateY(-54px);
+    transform: translate3d(50px, 230px, 0);
+  }
+  
+  .logo{
+      transform: translate3d(-30px, -570px, 0);
+  }
